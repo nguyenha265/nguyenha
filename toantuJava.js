@@ -1,0 +1,14 @@
+let a = prompt("chiều cao =");
+let b = prompt("chiều rộng =");
+document.write("chiều cao");
+document.write("<br/>");
+document.write(a);
+document.write("<br/>");
+document.write("chiều rộng");
+document.write("<br/>");
+document.write(b);
+document.write("<br>");
+let chieucao = parseInt(a);
+let chieurong = parseInt(b);
+let area = a*b;
+document.write("diện tích = " + area);
